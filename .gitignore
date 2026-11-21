@@ -17,9 +17,6 @@
 **/Assets/StreamingAssets/aa.meta
 **/Assets/StreamingAssets/aa/*
 
-# Compiled builds / release output
-release/
-
 # Visual Studio / Rider / IDE files
 .vs/
 .idea/
