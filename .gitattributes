@@ -1,2 +1,66 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Default auto-detection for text files
+* text=auto eol=lf
+
+# C# and Shader scripts
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.hlsl text
+*.compute text
+*.uss text
+*.uxml text
+
+# Unity YAML & config files
+*.meta text
+*.unity text
+*.prefab text
+*.mat text
+*.anim text
+*.controller text
+*.overrideController text
+*.physicMaterial text
+*.physicsMaterial2D text
+*.asset text
+*.preset text
+*.mask text
+*.spriteatlas text
+*.guiskin text
+*.fontsettings text
+*.mixer text
+*.asmdef text
+*.asmref text
+*.inputactions text
+
+# Web / JSON / Markdown
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+*.md text
+*.txt text
+*.gltf text
+
+# Binary assets (prevent line-ending conversion)
+*.fbx binary
+*.obj binary
+*.glb binary
+*.bin binary
+*.blend binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.hdr binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+*.dll binary
+*.exe binary
+*.zip binary
